@@ -3,6 +3,7 @@
 Vite Frontend + Node.js Backend
 
 This project consists of a **Vite + React** frontend and a **Node.js + Express** backend API. The structure is:
+
 ├── client # Vite frontend
 └── server # Node.js backend
 
