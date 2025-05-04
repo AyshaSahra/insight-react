@@ -32,7 +32,4 @@ npm install
 3. Start the backend server:
 node index.js
 4. The backend will be available at: http://localhost:5000 (or your configured port)
-📬 Contributing
-Feel free to fork this repo and submit a pull request. Contributions are welcome!
-📄 License
-This project is licensed under the MIT License.
+
