@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme{
+  --font-Aboreto: 'Aboreto';
+  --font-Abyssinica:'Abyssinica';
+  --font-Albert:'Albert';
+  --font-Algreya:'Algreya';
+  --font-Inria:'Inria';
+  --font-Kreon:'Kreon';
+}
+
+@font-face {
+  font-family: 'Aboreto';
+  src: url('../src/fonts/Aboreto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Abyssinica';
+  src: url('../src/fonts/AbyssinicaSIL-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Albert';
+  src: url('../src/fonts/AlbertSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Algreya';
+  src: url('../src/fonts/AlegreyaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inria';
+  src: url('../src/fonts/InriaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kreon';
+  src: url('../src/fonts/Kreon-Regular.ttf') format('truetype');
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* For Internet Explorer & Edge */
+body {
+  -ms-overflow-style: none;
+}
+
+.gradient{
+  background: linear-gradient(90deg, #1e3a8a, #6d28d9);
+  color: white;
+}
+
+.box4{
+  display: flex;
+  flex-direction: row;
+}
