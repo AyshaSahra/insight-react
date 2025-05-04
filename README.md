@@ -1,53 +1,38 @@
-# Insights-react
-
-Vite Frontend + Node.js Backend
-
-This project consists of a **Vite + React** frontend and a **Node.js + Express** backend API. The structure is:
-
-├── client # Vite frontend
-└── server # Node.js backend
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v16 or higher)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
-
----
-
-## 📁 Folder Structure
-
-- `client/`: Contains the frontend React app built using Vite.
-- `server/`: Contains the backend Node.js API using Express.
-
----
-
-## 🖥️ Running the Frontend (Vite)
-
-1. Navigate to the `client` folder:
-   ```bash
-   cd client
+📊 Insights-react
+A full-stack project using a Vite + React frontend and a Node.js + Express backend API.
+📁 Project Structure
+📁 Project Structure
+├── client   # Vite frontend
+└── server   # Node.js backend
+🚀 Getting Started
+✅ Prerequisites
+Ensure you have the following installed on your system:
+- Node.js (v16 or higher)
+- npm or Yarn
+📁 Folder Structure
+- client/: Contains the frontend React application powered by Vite.
+- server/: Contains the backend API built with Node.js and Express.
+🖥️ Running the Frontend (Vite)
+1. Navigate to the frontend folder:
+cd client
 2. Install dependencies:
-  npm install
-  # or
-  yarn
-  
-3. Start the Vite development server:
-  npm run dev
-  or
-  yarn dev
-  The frontend will run on http://localhost:5173
-
-4. Running the Backend (Node.js API)
-  Navigate to the server folder:
-  cd server
-  Install dependencies:
-  npm install
-  Start the backend server:
-   node index.js
-  The backend will run on http://localhost:5000 (or your configured port)
+npm install
+# or
+yarn
+3. Start the development server:
+npm run dev
+# or
+yarn dev
+4. The frontend will be available at: http://localhost:5173
+🛠️ Running the Backend (Node.js API)
+1. Navigate to the backend folder:
+cd server
+2. Install dependencies:
+npm install
+3. Start the backend server:
+node index.js
+4. The backend will be available at: http://localhost:5000 (or your configured port)
+📬 Contributing
+Feel free to fork this repo and submit a pull request. Contributions are welcome!
+📄 License
+This project is licensed under the MIT License.
