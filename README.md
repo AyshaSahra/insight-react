@@ -1,4 +1,4 @@
-# insights-react
+# Insights-react
 
 Vite Frontend + Node.js Backend
 
